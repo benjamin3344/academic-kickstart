@@ -20,5 +20,5 @@ url_video = ""
 +++
 {{< figure library="1" src="fig3.png" title="The flexible beam driven by linear motors" >}}
 
-{{< figure library="1" src="fig4.png" title=" flexible beam driven by linear motor-solidworks model" >}}
+{{< figure library="1" src="fig4.png" title="The flexible beam driven by linear motor-solidworks model" >}}
 Some results are shown in the figures below. Requests for the whole paper and materials should be addressed to Bin Shi.

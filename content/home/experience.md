@@ -1,7 +1,7 @@
 +++
 # Experience widget.
 widget = "experience"  # Do not modify this line!
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 
 title = "Project Experience"
 subtitle = ""
@@ -28,8 +28,8 @@ date_format = "January 2006"
   description = """
   Responsibilities include:
   
-  * [Quantum Optimal Control](https://bshizju.netlify.com/publication/time-scaling-transformation-in-quantum-optimal-control-computation/)
-  * [Quantum Parametric Oscillators](https://bshizju.netlify.com/publication/frequency-control-of-quantum-parametric-oscillators/)
+  * Quantum Optimal Contro (https://bshizju.netlify.com/publication/time-scaling-transformation-in-quantum-optimal-control-computation/)
+  * Quantum Parametric Oscillators(https://bshizju.netlify.com/publication/frequency-control-of-quantum-parametric-oscillators/)
   * Other research includes the optimal control of NMR, superconducting quantum system and NV center. The underway research includes the Quantum Zermelo Navigation, the systems with switched potential wells.
   """
 
