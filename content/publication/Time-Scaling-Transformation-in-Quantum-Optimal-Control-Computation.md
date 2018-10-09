@@ -15,7 +15,7 @@ url_code = ""
 url_dataset = ""
 url_pdf = "papers/Time Scaling Transformation in Quantum Optimal Control Computation.pdf"
 url_project = ""
-url_slides = ""
+url_slides = "papers/ppt time scaling"
 url_video = ""
 +++
 
