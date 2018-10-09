@@ -19,7 +19,7 @@ url_slides = ""
 url_video = ""
 +++
 
-{{<gallery album="1">}}
+{{< galleryalbum="1" >}}
 
 Some results are shown in the figures above. Requests for the whole paper and materials should be addressed to Bin Shi. 
 
