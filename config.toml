@@ -6,10 +6,10 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "https://bshizju.netlify.com"
 
 # Title of your site
-title = "Academic"
+title = "Homepage"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -51,22 +51,22 @@ enableGitInfo = false
   # AUTHOR SETUP
 
   # Your details.
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
+  name = "Bin Shi"
+  role = "College of Control Science and Engineering"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "Zhejiang University", url = "https://www.zju.edu.cn" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
+  email = "bshi@zju.edu.cn"
+  address = "Room 106, Institute of Cyber-Systems and Control, Zhejiang University, Hangzhou, 310027, China"
+  #office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  phone = "+86 18868108127"
+  skype = "benjamin3344@live.cn"
   telegram = ""
   keybase = ""  # Your keybase.io username.
 
