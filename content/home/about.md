@@ -17,12 +17,17 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "MEng in Control Science and Engineering (expected)"
+  course = "[MEng in Control Science and Engineering](http://ckc.zju.edu.cn/english/) (expected)"
   institution = "Zhejiang University"
   year = 2019
 
 [[education.courses]]
   course = "BEng in Mechatronics Engineering"
+  institution = "Zhejiang University"
+  year = 2016
+
+[[education.courses]]
+  course = "Chu Kochen Honors Program"
   institution = "Zhejiang University"
   year = 2016
  
