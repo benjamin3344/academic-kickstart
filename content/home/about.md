@@ -16,8 +16,8 @@ weight = 5
   ]
 
 # List your qualifications (such as academic degrees).
-[[education.courses]]
-  course = "MEng in [Control Science and Engineering](http://ckc.zju.edu.cn/english/)"
+[[education.courses]](http://ckc.zju.edu.cn/english/)
+  course = "MEng in [Control Science and Engineering]"
   institution = "Zhejiang University"
   year = 2019
 
