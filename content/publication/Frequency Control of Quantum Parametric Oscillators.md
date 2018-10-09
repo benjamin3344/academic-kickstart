@@ -3,7 +3,7 @@ abstract = "We study the harmonic oscillators connected by a periodic or quasipe
 abstract_short = ""
 authors = ["B. Shi", "C. Xu, et al."]
 date = "2018-10-01"
-image = "fig1.png, fig2.png"
+image = ""
 image_preview = ""
 math = true
 publication = "Under review"
@@ -18,6 +18,11 @@ url_project = ""
 url_slides = ""
 url_video = ""
 +++
+
+{{<gallery album="1">}}
+
+Some results are shown in the figures above. Requests for the whole paper and materials should be addressed to Bin Shi. 
+
 [[gallery_item]]
 album = "1"
 image = "fig1.png"
@@ -27,5 +32,3 @@ caption = "Time evolution of entanglement in the Markovian regime for different 
 album = "1"
 image = "fig2.png"
 caption = "Stability region (white) when only one driving term exists"
-
-Some results are shown in the figures above. Requests for the whole paper and materials should be addressed to Bin Shi. 
