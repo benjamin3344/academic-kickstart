@@ -348,5 +348,5 @@ enableGitInfo = false
 #    role = "Your role in Chinese..."
 #  [[languages.zh.menu.main]]
 #    name = "Wo"
-#    url = "#about"
+#    url = "https://github.com/benjamin3344/academic-kickstart/tree/master/content/home/about.md"
 #    weight = 1
