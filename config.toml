@@ -274,7 +274,7 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Home"
-  url = "https://github.com/benjamin3344/academic-kickstart/blob/master/config.toml"
+  url = "https://github.com/benjamin3344/academic-kickstart/tree/master/content/home/about.md"
   weight = 1
 
 [[menu.main]]
