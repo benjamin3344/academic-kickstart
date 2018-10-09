@@ -34,7 +34,7 @@ hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
 
 # Get last modified date for content from Git?
-enableGitInfo = true
+enableGitInfo = false
 
 [outputs]
   home = [ "HTML", "CSS", "RSS", "JSON" ]
@@ -274,7 +274,7 @@ enableGitInfo = true
 
 [[menu.main]]
   name = "Home"
-  url = "https://github.com/benjamin3344/academic-kickstart/tree/master/content/home/about.md"
+  url = "#about"
   weight = 1
 
 [[menu.main]]
@@ -348,5 +348,5 @@ enableGitInfo = true
 #    role = "Your role in Chinese..."
 #  [[languages.zh.menu.main]]
 #    name = "Wo"
-#    url = "https://github.com/benjamin3344/academic-kickstart/tree/master/content/home/about.md"
+#    url = "/"
 #    weight = 1

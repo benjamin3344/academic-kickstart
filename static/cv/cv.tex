@@ -1,0 +1,223 @@
+\documentclass[article,11pt,oneside,letterpaper]{memoir}
+
+% to properly compile this file, use xelatexmk
+% you must have Linux Libertine font installed on your computer
+% (contrary to the name, it's available for most OSs)
+
+% Set up biblatex
+\usepackage[style=authoryear, sorting=none, url=false, doi=false]{biblatex}
+\addbibresource{~/Sync/bibliography/references.bib}
+% Remove "in" from before journals:
+\renewbibmacro{in:}{\ifentrytype{article}{}{\printtext{\bibstring{in}\intitlepunct}}}
+% make the title link to the DOI, if available: 
+\newbibmacro{string+doi}[1]{%
+  \iffieldundef{doi}{#1}{\href{https://doi.org/\thefield{doi}}{#1}}}
+\DeclareFieldFormat{title}{\usebibmacro{string+doi}{\mkbibemph{#1}}}
+\DeclareFieldFormat[article]{title}{\usebibmacro{string+doi}{\mkbibquote{#1}}}
+
+% Remove (n.d.) from working papers:
+\DeclareLabeldate{%
+  \field{date}
+  \field{year}
+  \field{eventdate}
+  \field{origdate}
+  \field{urldate}
+  \field{pubstate}
+  \literal{nodate}
+}
+
+\renewbibmacro*{addendum+pubstate}{%
+  \printfield{addendum}%
+  \newunit\newblock
+  \iffieldequalstr{labeldatesource}{pubstate}
+  {}
+  {\printfield{pubstate}}}
+
+% To put periods inside quotes instead of outside in refs:
+\usepackage[american]{babel}
+\usepackage{csquotes}
+\usepackage{changepage}   % for the adjustwidth environment
+\usepackage{calc}
+% Set up page layout:
+\setlength{\parindent}{0em}
+\setlrmarginsandblock{1.75in}{0.75in}{*} % left, right, ratio
+\setmarginnotes{0.15in}{1in}{0in} % sep, width, push
+\setulmarginsandblock{1.5in}{1in}{*} % upper, lower, ratio
+\setlength{\headsep}{0in}
+\setlength{\headheight}{1in}
+% \setlength{\spinemargin}{1.75in}
+\checkandfixthelayout{}
+
+\usepackage{datetime2}
+\author{J. Alexander Branham}
+\title{Branham CV}
+\makeatletter
+\let\theauthor\@author{}
+\makeatother
+
+% What font to use:
+% Note this requires xelatex to compile:
+\usepackage{fontspec}
+\setmainfont{Linux Libertine}
+
+% hyperref for links
+\usepackage[pdfusetitle]{hyperref}
+\hypersetup{colorlinks=true,
+  urlcolor=blue}
+
+% Put name in header and horizontal line:
+\makeoddhead{plain}{\textbf{\Huge{\theauthor}
+    \noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}}
+}{}{}
+\makeoddfoot{plain}{}{}{}
+\makeevenfoot{plain}{}{}{}
+
+% Make a new page style 'lastpage' that inherits from 'plain' (the pagestyle
+% used everywhere), but puts ``Updated \today{}'' in the footer:
+\copypagestyle{lastpage}{plain}
+\makeoddfoot{lastpage}{Updated \today{}}{}{}
+
+\begin{document}
+\renewcommand{\section}[2]{\reversemarginpar\marginpar{{\vspace{#2}\textsc{#1}}}}
+\newcommand{\cvitem}[2]{#1 \hfill \textit{#2}}
+\newcommand{\cvitemindent}[2]{\hphantom{xyz} #1 \hfill \textit{{#2}}}
+
+Batts Hall \hfill     \\*
+\section{Contact Information}{-2em} 
+\hspace{-0.3em}158 W 21st ST STOP A1800 \hfill \href{mailto:branham@utexas.edu}{branham@utexas.edu} \\*
+University of Texas, Austin \hfill \href{www.jabranham.com}{www.jabranham.com} \\*
+Austin, TX 78712 \hfill \\
+\vspace{-1em}
+
+\section{Appointments}{0.5em}
+\textbf{Research Associate} \hfill \emph{January---July 2017}\\*
+\cvitemindent{University of Gothenburg, Sweden}\\
+\vspace{-1em}
+
+\section{Education}{0.5em}
+\textbf{University of Texas Austin} \hfill \emph{August 2013---Present}\\*
+\cvitemindent{Ph.D. Candidate in Government}{}
+
+\textbf{Temple University} \hfill  \emph{May 2013} \\*
+\cvitemindent{M.A. in Political Science \& Teaching in Higher Education Certificate}{}
+
+\textbf{Ursinus College} \hfill \emph{May 2011} \\*
+\cvitemindent{B.A. in Politics and International Relations }{}
+% Cum laude with distinguished honors in politics and international relations
+
+\section{Publications}{1.5em}
+\begin{refsection}
+  \nocite{branham}
+  \nocite{wlezienming}
+  \nocite{branham2017b}
+  \nocite{branham2017}
+  \nocite{apfeld2016}
+  \printbibliography[heading=none]
+\end{refsection}
+\vspace{-1em}
+
+\section{Working Papers}{1.5em}
+\begin{refsection}
+  \nocite{branham_partisan_policy}
+  \nocite{sohlberg_branham}
+  \nocite{branham_persson}
+  \printbibliography[heading=none]
+\end{refsection}
+
+\section{Teaching\\Experience}{0.25em}
+\textbf{University of Gothenburg}\\*
+\emph{Short Course}\\*
+\cvitemindent{\href{https://jabranham.com/learn-r}{Introduction to Data Analysis \& Reporting with R}, graduate level}{June 2017}
+
+\textbf{University of Texas}\\*
+\emph{Instructor}\\*
+\cvitemindent{\href{https://jabranham.com/GOV310L}{Introduction to U.S. Politics}}{Spring 2016, Fall 2016, Spring 2019}
+
+\emph{Short Courses}\\*
+\cvitemindent{\href{https://jabranham.com/math-camp}{Introduction to Math for Political Scientists}, graduate level}{August 2015, 2016, 2017}\\*
+\cvitemindent{\href{https://github.com/jabranham/applied-r-for-social-scientists}{Applied R for Social Scientists}, graduate level}{April 2016}\\*
+\cvitemindent{\href{https://github.com/jabranham/latex-workshop}{Introduction to \LaTeX~Workshop}, graduate level}{October 2015}
+
+\emph{Assistant Instructor}\\*
+\cvitemindent{Texas Politics, online}{Summer 2016}
+
+\emph{Teaching Assistant}\\*
+\cvitemindent{Bayesian Statistics, graduate level}{Fall 2017}\\*
+\cvitemindent{Statistics I, graduate level}{Fall 2015}\\*
+\cvitemindent{Statistics II, graduate level}{Spring 2015}\\*
+\cvitemindent{Public Choice}{Fall 2013}\\*
+\cvitemindent{Texas Political History}{Spring 2014}\\*
+\cvitemindent{Introduction to U.S. Politics}{Summer 2014}\\*
+\cvitemindent{Introduction to Latin American Politics}{Fall 2014}\\*
+\cvitemindent{Political Representation}{Fall 2014}
+
+\textbf{Temple University}\\*
+\emph{Teaching Assistant}\\*
+\cvitemindent{Quantitative Methods in the Social Sciences}{Fall 2012, Spring 2013}\\*
+\cvitemindent{Foreign Governments and Politics}{Spring 2012, Fall 2011}\\*
+\cvitemindent{Contemporary Politics of Europe}{Fall 2011}\\
+\vspace{-1em}
+
+\section{Honors \&~Awards}{0.5em}
+\cvitem{Graduate School Fellowship, University of Texas}{Spring 2017, Fall 2018} \\*
+\cvitem{SciPy (Scientific Python Conference) Scholarship}{July 2018}\\*
+\cvitem{University Fellowship, University of Texas}{Fall 2017--Summer 2018} \\*
+\cvitem{Professional Development Award, University of Texas}{2015, 2016, 2017, 2018} \\*
+\cvitem{Prestage-Cook Travel Award, SPSA}{January 2016} \\*
+\cvitem{UK YouGov Survey Experiment Contest Winner}{Fall 2015} \\*
+\cvitem{Clogg Fellowship, ICPSR}{Summer 2015} \\*
+\cvitem{Pre-Dissertation Fellowship, Department of Government}{Summer 2015} \\*
+\cvitem{ICPSR Summer Program Fellowship, Department of Government}{Summer 2015} \\*
+\cvitem{Empirical Implications of Theoretical Models, University of Houston}{Summer 2015} \\*
+\cvitem{Graduate Student Conference Award, Temple University}{Fall 2012} \\*
+\cvitem{Frederick M. Binder Award, Ursinus College}{Spring 2011}\\
+\vspace{-1em}
+
+\section{Conference Presentations}{0.5em}
+\cvitem{``Partisan Preferences and Policy Outputs: How Much Does Winning Actually Matter?''}{SPSA~2018}\\*
+\cvitem{``Public Opinion, Elite Opinion, and Public Policy''}{MPSA 2017, EPSA 2017}\\*
+\cvitem{``Modeling Spending Preferences and Public Policy''}{PolMeth 2016, APSA 2016} \\*
+\cvitem{``When do the Rich Win?''}{SPSA 2016, MPSA 2016, AAPOR 2016}\\*
+\cvitem{``Partisan Feedback: Heterogeneity in Opinion Responsiveness''}{MPSA 2015, MPSA 2017}\\
+\vspace{-1em}
+
+\section{University Service}{0.5em}
+\textbf{University of Texas} \\*
+\cvitemindent{College of Liberal Arts Task Force on Graduate Student Professionalization, Member}{2016} \\*
+\cvitemindent{Government Department Graduate Student Organization, Co-President}{2015--2016}\\
+\textbf{Temple University}\\*
+\cvitemindent{Political Science Graduate Student Association, President}{2012--2013} \\*
+\cvitemindent{Graduate Committee, Student Representative}{2012--2013}\\
+\vspace{-1em}
+
+\section{Professional Service}{0.25em}
+\textbf{Reviewer}
+% Wrap in adjustwidth to indent to the same level as items in \cvitemindent.
+% First argument is adjust from left margin, second is adjust from right.
+\begin{adjustwidth}{\widthof{\hphantom{xyz}}}{}
+  % flushleft avoids hyphonating journal titles
+  \begin{flushleft}
+    % Put a nonbreaking space to avoid splitting Journal titles across lines
+    \emph{American~Journal~of~Political~Science},
+    \emph{American~Political~Science~Review},
+    \emph{American~Politics~Research},
+    \emph{Electoral~Studies},
+    \emph{Political~Science~Research~and~Methods},
+    \emph{State~Politics~and~Policy~Quarterly}
+  \end{flushleft}
+\end{adjustwidth}
+
+\textbf{Section Chair}\\*
+\cvitemindent{Electoral Politics, \emph{Southern Political Science Association}}{January 2019}%\\
+
+\section{Programming}{0.25em}
+I am fluent in R and elisp. I have a working knowledge of python and scheme.
+
+I am core developer of \href{https://ess.r-project.org}{ESS}, an environment for statistical computing languages.
+
+\thispagestyle{lastpage}
+\end{document}
+
+% Local Variables:
+% TeX-command-default: "xelatexmk"
+% End:

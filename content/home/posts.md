@@ -1,29 +1,27 @@
 +++
 # Recent Posts widget.
-# This widget displays recent posts from `content/post/`.
+# Note: this widget will only display if `content/post/` contains posts.
 widget = "posts"
+date = "2016-04-20T00:00:00"
 active = true
-date = 2016-04-20T00:00:00
-
+draft = false
 title = "Recent Posts"
-subtitle = ""
+subtitle = "[Blog RSS](/feed.xml)"
+
 
 # Order that this section will appear in.
-weight = 40
+weight = 30
 
-# Filter posts by tag.
-#  By default, show all recent posts.
-#  Filtering example: `tags_include = ["hugo", "academic"]`
+# Show posts that contain the following tags. Default to any tags.
 tags_include = []
 tags_exclude = []
 
 # Number of posts to list.
 count = 5
 
-# List format.
-#   0 = Simple
-#   1 = Detailed
-#   2 = Stream
-list_format = 2
+# Links.
+str_all = "More Posts"
+str_read_more = "CONTINUE READING"
+
 +++
 
