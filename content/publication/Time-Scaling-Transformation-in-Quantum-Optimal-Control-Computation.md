@@ -6,7 +6,7 @@ date = "2018-03-01"
 image = ""
 image_preview = ""
 math = true
-publication = "*37th IEEE Chinese Control Conference*(Accepted)"
+publication = "*37th IEEE Chinese Control Conference* (Accepted)"
 publication_short = ""
 publication_types = ["1"]
 selected = false
@@ -20,4 +20,4 @@ url_video = ""
 +++
 
 Only acceptance letter is presented considering the copyright. The paper is nominated as Finalists of [IEEE Control Systems Society
-(CSS) Beijing Chapter Young Author Prize](http://icbc.amss.ac.cn/)
+(CSS) Beijing Chapter Young Author Prize](http://icbc.amss.ac.cn/).
