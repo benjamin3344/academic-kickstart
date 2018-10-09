@@ -13,24 +13,21 @@ platform is established and the frequency domain characteristics and
 parameters of the system are obtained. Through the aforementioned two
 parts, we get the model of the system, and subsequently the simulation
 and controller design based on the model. In addition，the effect of
-the controller should be verified, and the modeling ， analysis,
-identification, simulation and control of the system are completed,
-which provides an engineering example for the study of the flexible
-systems."
+the controller should be verified, and the modeling, analysis, identification, simulation and control of the system are completed, which provides an engineering example for the study of the flexible systems."
 abstract_short = ""
 authors = ["B. Shi"]
 date = "2016-07-01"
 image = ""
 image_preview = ""
 math = true
-publication = "B.S. degree dissertation(in Chinese)"
+publication = "B.S. degree dissertation in Chinese"
 publication_short = ""
 publication_types = ["2"]
 selected = false
-title = "Design of the tip control of flexible beam driven by linear moter based on vibration modal analysis"
+title = "Design of the tip control of flexible beam driven by linear motor based on vibration modal analysis"
 url_code = ""
 url_dataset = ""
-url_pdf = "papers/Design of the tip control of flexible beam driven by linear moter based on vibration modal analysis.pdf"
+url_pdf = "papers/Design of the tip control of flexible beam driven by linear motor based on vibration modal analysis.pdf"
 url_project = ""
 url_slides = ""
 url_video = ""
