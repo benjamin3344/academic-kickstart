@@ -17,7 +17,7 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = ["MEng in Control Science and Engineering"](http://ckc.zju.edu.cn/english/)
+  course = "MEng in [Control Science and Engineering](http://ckc.zju.edu.cn/english/)"
   institution = "Zhejiang University"
   year = 2019
 
@@ -34,5 +34,5 @@ weight = 5
 +++
 
 # Biography
- [I](http://ckc.zju.edu.cn/english/)
+
 I am a MEng candidate at Zhejiang University at Hangzhou, College of Control Science and Engineering. I got my BEng degree in Mechatronics Engineering at Zhejiang University at Hangzhou, School of Mechanical Engineering. My interests include quantum control and quantum information, dynamic systems and control, and robotics. Potential interests also include artificial intelligence and biophysics. My senior project is mainly about the tip control of the flexible beam driven by linear motors based on vibration modal analysis. My master's thesis will focus on quantum optimal control and frequency control of quantum parametric oscillators.
