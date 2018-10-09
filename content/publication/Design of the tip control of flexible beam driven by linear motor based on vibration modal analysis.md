@@ -10,7 +10,7 @@ publication = "B.S. degree dissertation (written in Chinese)"
 publication_short = ""
 publication_types = ["0"]
 selected = false
-title = "Design of the tip control of flexible beam driven by linear motor based on vibration modal analysis"
+title = "Design of the tip control of the flexible beam driven by linear motors based on vibration modal analysis"
 url_code = ""
 url_dataset = ""
 url_pdf = "papers/Design of the tip control of flexible beam driven by linear motor based on vibration modal analysis.pdf"
@@ -18,5 +18,7 @@ url_project = ""
 url_slides = ""
 url_video = ""
 +++
+{{< figure library="1" src="fig3.png" title="The flexible beam driven by linear motors" >}}
 
+{{< figure library="1" src="fig4.png" title=" flexible beam driven by linear motor-solidworks model" >}}
 Some results are shown in the figures below. Requests for the whole paper and materials should be addressed to Bin Shi.
