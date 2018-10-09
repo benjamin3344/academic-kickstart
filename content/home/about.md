@@ -19,7 +19,7 @@ weight = 5
 [[education.courses]]
   course = ["MEng in Control Science and Engineering"](http://ckc.zju.edu.cn/english/)
   institution = "Zhejiang University"
-  year = 
+  year = 2019
 
 [[education.courses]]
   course = "BEng in Mechatronics Engineering"
