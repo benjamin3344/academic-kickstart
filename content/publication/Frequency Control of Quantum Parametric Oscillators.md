@@ -17,9 +17,12 @@ url_pdf = ""
 url_project = ""
 url_slides = ""
 url_video = ""
-{{< gallery album="1" >}}
 +++
 
+
+{{< figure library="1" src="fig2.png" title="Time evolution of entanglement" >}}
+
+{{< figure library="1" src="fig1.png" title="Instability region" >}}
 
 
 Some results are shown in the figures above. Requests for the whole paper and materials should be addressed to Bin Shi. 
