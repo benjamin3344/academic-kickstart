@@ -51,7 +51,7 @@ enableGitInfo = false
   # AUTHOR SETUP
 
   # Your details.
-  name = "Bin Shii"
+  name = "Bin Shi"
   role = "College of Control Science and Engineering"
 
   # Organizations/Affiliations.
@@ -348,5 +348,5 @@ enableGitInfo = false
 #    role = "Your role in Chinese..."
 #  [[languages.zh.menu.main]]
 #    name = "Wo"
-#    url = "/"
+#    url = "#about"
 #    weight = 1

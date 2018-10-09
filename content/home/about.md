@@ -2,46 +2,32 @@
 # About/Biography widget.
 widget = "about"
 active = true
-date = "2016-04-20T00:00:00"
-draft = false
+date = 2016-04-20T00:00:00
 
 # Order that this section will appear in.
-weight = 1
+weight = 5
 
 # List your academic interests.
 [interests]
-    interests = [
-    "Elections",
-    "Methodology",
-    "Public Opinion",
-    "Public Policy"
+  interests = [
+    "Quantum Control and Quantum Information",
+    "Dynamic Systems and Control",
+    "Robotics"
   ]
 
 # List your qualifications (such as academic degrees).
+[[education.courses]]
+  course = "MEng in Control Science and Engineering (expected)"
+  institution = "Zhejiang University"
+  year = 2019
 
 [[education.courses]]
-  course = "PhD Candidate"
-  institution = "University of Texas at Austin"
-  
-
-[[education.courses]]
-  course = "MA in Political Science"
-  institution = "Temple University"
-  year = 2013
-
-[[education.courses]]
-  course = "BA in Politics & International Relations"
-  institution = "Ursinus College"
-  year = 2011
+  course = "BEng in Mechatronics Engineering"
+  institution = "Zhejiang University"
+  year = 2016
  
 +++
 
-# About me
+# Biography
 
-I'm a PhD Candidate at the University of Texas at Austin, Department of Government.
-My interests include public opinion, public policy, elections, and methodology.
-I'm currently working on several research projects.
-My dissertation focuses on the impact of partisanship on the opinion-policy link.
-I'm also interested in whether (and how) income inequalities affect representation of public opinion in policy outputs.
-You can find some of my working papers [here](/working-papers).
-
+I am a MEng candidate at Zhejiang University at Hangzhou, College of Control Science and Engineering. I got my BEng degree in Mechatronics Engineering at Zhejiang University at Hangzhou, School of Mechanical Engineering. My interests include quantum control and quantum information, dynamic systems and control, and robotics. Potential interests also include artificial intelligence and biophysics. My senior project is mainly about the tip control of the flexible beam driven by linear motors based on vibration modal analysis. My master's thesis will focus on quantum optimal control and frequency control of quantum parametric oscillators.
