@@ -20,19 +20,9 @@ url_video = ""
 +++
 
 
-{{< figure library="1" src="fig2.png" title="Time evolution of entanglement" >}}
+{{< figure library="1" src="fig2.png" title="Time evolution of entanglement in the Markovian regime for different damping rate gamma" >}}
 
-{{< figure library="1" src="fig1.png" title="Instability region" >}}
-
+{{< figure library="1" src="fig1.png" title="Stability region (white) when only one driving term exists" >}}
 
 Some results are shown in the figures above. Requests for the whole paper and materials should be addressed to Bin Shi. 
 
-[[gallery_item]]
-album = "1"
-image = "fig1.png"
-caption = "Time evolution of entanglement in the Markovian regime for different damping rate gamma"
-    
-[[gallery_item]]
-album = "1"
-image = "fig2.png"
-caption = "Stability region (white) when only one driving term exists"
