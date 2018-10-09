@@ -29,7 +29,7 @@ date_format = "January 2006"
   description = """
   Responsibilities include:
   
-  * Quantum Optimal Contro (https://bshizju.netlify.com/publication/time-scaling-transformation-in-quantum-optimal-control-computation/)
+  * Quantum Optimal Control (https://bshizju.netlify.com/publication/time-scaling-transformation-in-quantum-optimal-control-computation/)
   * Quantum Parametric Oscillators(https://bshizju.netlify.com/publication/frequency-control-of-quantum-parametric-oscillators/)
   * Other research includes the optimal control of NMR, superconducting quantum system and NV center. The underway research includes the Quantum Zermelo Navigation, the systems with switched potential wells.
   """
@@ -40,7 +40,7 @@ date_format = "January 2006"
   company_url = ""
   location = "Hangzhou"
   date_start = "2015-09-01"
-  date_end = "2016-7-1"
+  date_end = "2016-07-01"
   description = """Control of the Flexible Beam Driven by Linear Motors."""
 
 +++
