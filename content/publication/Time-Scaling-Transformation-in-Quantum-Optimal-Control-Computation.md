@@ -13,11 +13,11 @@ selected = false
 title = "Time Scaling Transformation in Quantum Optimal Control Computation"
 url_code = ""
 url_dataset = ""
-url_pdf = "papers/Time Scaling Transformation in Quantum Optimal Control Computation"
+url_pdf = "papers/Time Scaling Transformation in Quantum Optimal Control Computation.pdf"
 url_project = ""
 url_slides = ""
 url_video = ""
 +++
 
-The paper is nominated as Finalists of IEEE Control Systems Society
-(CSS) Beijing Chapter Young Author Prize
+Only acceptance letter is presented considering the copyright. The paper is nominated as Finalists of [IEEE Control Systems Society
+(CSS) Beijing Chapter Young Author Prize](http://icbc.amss.ac.cn/)
