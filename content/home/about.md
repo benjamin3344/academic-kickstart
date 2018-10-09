@@ -10,31 +10,24 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Quantum Control and Quantum Information",
+    "Dynamic Systems and Control",
+    "Robotics"
   ]
 
 # List your qualifications (such as academic degrees).
-[[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
+[[educationrses]]
+  course = "MEng in Control Science and Engineering"
+  institution = "Zhejiang University"
+  year = 2018.3(expected)
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
-
-[[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
+  course = "BEng in Mechatronics Engineering"
+  institution = "Zhejiang University"
+  year = 2016
  
 +++
 
 # Biography
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+I am a MEng candidate at Zhejiang University at Hangzhou, College of Control Science and Engineering. I got my BEng degree in Mechatronics Engineering at Zhejiang University at Hangzhou, School of Mechanical Engineering. My interests include quantum control and quantum information, dynamic system and control, and robotics. Potential interests also include artificial intelligence and biophysics. My senior project is mainly about the tip control of the flexible beam driven by linear motors based on vibration modal analysis. My master's theis will focus on quantum optimal control and frequency control of quantum parametric oscillators. 
