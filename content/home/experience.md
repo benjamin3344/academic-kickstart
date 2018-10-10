@@ -60,6 +60,7 @@ date_format = "January 2006"
 
   * Built the kinematics and inverse kinematics of the robot arms in Googoltech using DH and POE respectively, on Matlab and compared the two modeling methods.
   * Analyzed the singularities of the industrial robot arm.
+
 [Read More](/POE)
   """
 
@@ -76,6 +77,8 @@ date_format = "January 2006"
   * Calibrated the exterior parameters of the soccer robots as a member of the gait group of ZJUDancer.
   * Designed new postures and checked parameters to make sure that robots
 could fulfill the designated movements accurately.
+
+[Read More](/POE)
   """
 
 [[experience]]

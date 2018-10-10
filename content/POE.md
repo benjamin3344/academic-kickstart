@@ -6,9 +6,9 @@ title = "Summer Intern"
 +++
 
 ### Summer Intern 2015 - Googoltech
-The main content includes 
+The main content includes:
 
-* [Slides](/papers/)(kinematics_sb.pdf): the comparison between POE (Product of Exponentials) and traditional DH method. 
+* [Slides](/papers/kinematics_sb.pdf): the comparison between POE (Product of Exponentials) and traditional DH method. 
 * Slides: the singularity analysis of industrial robot arms.
 
 Requests of more codes and documents should be addressed to Bin Shi.
