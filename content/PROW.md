@@ -18,7 +18,8 @@ url_project = ""
 url_slides = ""
 url_video = ""
 +++
-{{< figure library="1" src="fig3.png" title="The flexible beam driven by linear motors" >}}
 
-{{< figure library="1" src="fig4.png" title="The flexible beam driven by linear motor-solidworks model" >}}
-Some results are shown in the figures below. Requests for the whole paper and materials should be addressed to Bin Shi.
+The mechanical structure of the 4-Dof robot arm is shown below:
+{{< figure library="1" src="fig5.png" title="The mechanical structure" >}}
+The vertical line is drawing board. Animation and details are introduced in the pdf.
+

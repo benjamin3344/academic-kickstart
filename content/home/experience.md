@@ -85,6 +85,6 @@ could fulfill the designated movements accurately.
   date_start = "2013-09-01"
   date_end = "2015-01-01"
   description = """
-  Painting Robots On Web (PROW): The project aimed at drawing a portrait of a person after taking a picture. My work was to model the self-designed 4-dof robot arm and to plan the trajectories.
+  Painting Robots On Web (PROW): The project aimed at drawing a portrait of a person after taking a picture. My work was to model the self-designed 4-dof robot arm and to plan the trajectories. [Read More](/PROW)
 """
 +++
