@@ -60,6 +60,7 @@ date_format = "January 2006"
 
   * Built the kinematics and inverse kinematics of the robot arms in Googoltech using DH and POE respectively, on Matlab and compared the two modeling methods.
   * Analyzed the singularities of the industrial robot arm.
+[Read More](/POE)
   """
 
 [[experience]]
