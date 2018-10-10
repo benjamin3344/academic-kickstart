@@ -56,7 +56,8 @@ date_format = "January 2006"
   date_start = "2015-07-01"
   date_end = "2015-09-01"
   description = """
-  Singularity Analysis based on Product of Exponentials (POE)
+  Singularity Analysis based on Product of Exponentials (POE):
+
   * Built the kinematics and inverse kinematics of the robot arms in Googoltech using DH and POE respectively, on Matlab and compared the two modeling methods.
   * Analyzed the singularities of the industrial robot arm.
   """
@@ -75,4 +76,14 @@ date_format = "January 2006"
   * Designed new postures and checked parameters to make sure that robots
 could fulfill the designated movements accurately.
   """
+
+[[experience]]
+  title = "Student Research Training Program(SRTP)"
+  company = "Zhejiang University"
+  company_url = ""
+  location = "Hangzhou"
+  date_start = "2013-09-01"
+  date_end = "2015-01-01"
+  description = """
+  Painting Robots On Web(PROW): The project aimed at drawing a portrait of a person after taking a picture. My work was to model the self-designed 4-dof robot arm and to plan the trajectories.
 +++
