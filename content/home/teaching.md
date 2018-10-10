@@ -26,14 +26,6 @@ weight = 50
 * Assistant Instructor 
   + Texas Politics (online)
 * Teaching Assistant 
-  + Statistics I - graduate level
-  + Statistics II - graduate level
-  + Public Choice
-  + Texas Political History
-  + American Government 
-  + Introduction to Latin American Politics 
-  + Political Representation
-  + Quantitative Methods in the Social Sciences
-  + Foreign Governments and Politics
-  + Contemporary Politics of Europe
+  + [Object Oriented Programming (C++) - undergraduate level](/OOP)
+* 
 
