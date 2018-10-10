@@ -1,7 +1,7 @@
 ﻿+++ 
 abstract = "The optimal control problem of the closed quantum systems can be equivalent to the parameters optimization problem of bilinear control systems. Numerical optimization techniques such as time scaling transformation are introduced to the Gradient Ascent Pulse Engineering (GRAPE) algorithm. The modified scheme can improve the fidelity, reduce the optimal evolutionary time and errors caused by the nonlinear hardware as illustrated in the numerical simulation of homonuclear optimal control."
 abstract_short = ""
-authors = ["B. Shi", "C. Xu", "R. Wu"]
+authors = ["Bin Shi", "Chao Xu", "Rebing Wu"]
 date = "2018-03-01"
 image = ""
 image_preview = ""

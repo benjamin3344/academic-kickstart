@@ -1,7 +1,7 @@
 ﻿+++ 
 abstract = "We study the harmonic oscillators connected by a periodic or quasiperiodic coupling and interacting with a common heat bath. The system can be divided into a free parametric oscillator whose stability regions are also the regions where entanglement exists in high temperature, and a dissipative parametric oscillator. In one driving term case, the ratio of the driving frequency and the base frequency determines whether entanglement would occur and the latter one also determines the characteristic parameters of entanglement. The effect of damping term is also investigated. Finally, we analyze the multiple driving terms case and outline the basic rules of frequency control as to the quantum parametric oscillators."
 abstract_short = ""
-authors = ["B. Shi", "C. Xu, et al."]
+authors = ["Bin Shi", "Chao Xu","Hongye Su, et al."]
 date = "2018-10-01"
 image = ""
 image_preview = ""
