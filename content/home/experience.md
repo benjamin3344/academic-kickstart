@@ -57,22 +57,22 @@ date_format = "January 2006"
   date_end = "2015-09-01"
   description = """
   Singularity Analysis based on Product of Exponentials (POE)
-  * Built the kinematics and inverse kinematics of the robot arms in Googoltech using DH and POE respectively, on Matlab
-and compared the two modeling methods.
+  * Built the kinematics and inverse kinematics of the robot arms in Googoltech using DH and POE respectively, on Matlab and compared the two modeling methods.
   * Analyzed the singularities of the industrial robot arm.
   """
 
 [[experience]]
-  title = "Summer Intern"
-  company = "Googoltech"
-  company_url = ""
-  location = "Shenzhen"
-  date_start = "2015-09-01"
+  title = "Robocup competition"
+  company = "ZJUDancer (student club)"
+  company_url = "https://www.robocup2015.org/"
+  location = "Hefei"
+  date_start = "2014-09-01"
   date_end = "2015-07-01"
   description = """
-  Singularity Analysis based on Product of Exponentials (POE)
-  * Built the kinematics and inverse kinematics of the robot arms in Googoltech using DH and POE respectively, on Matlab
-and compared the two modeling methods.
-  * Analyzed the singularities of the industrial robot arm.
+  Robocup Humanoid League Kidsize Soccer Competition 2nd Place
+
+  * Calibrated the exterior parameters of the soccer robots as a member of the gait group of ZJUDancer.
+  * Designed new postures and checked parameters to make sure that robots
+could fulfill the designated movements accurately.
   """
 +++
