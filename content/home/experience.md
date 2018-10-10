@@ -7,7 +7,7 @@ title = "Project Experience"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 50
+weight = 20
 #8
 
 # Date format for experience
