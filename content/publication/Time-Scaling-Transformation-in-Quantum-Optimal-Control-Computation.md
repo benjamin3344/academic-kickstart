@@ -19,4 +19,4 @@ url_slides = "papers/ppt time scaling.pdf"
 url_video = ""
 +++
 
-Only acceptance letter is presented considering the copyright. Details can be seen in the poster. The paper is nominated as Finalists of [IEEE Control Systems Society(CSS) Beijing Chapter Young Author Prize](http://icbc.amss.ac.cn/).
+Only acceptance letter is presented considering the copyright. Details can be obtained in the slide and [the poster](/poster). The paper is nominated as Finalists of [IEEE Control Systems Society(CSS) Beijing Chapter Young Author Prize](http://icbc.amss.ac.cn/).
