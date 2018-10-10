@@ -9,6 +9,6 @@ Through the three stages of the development of robot- teach and playback robot, 
 
 {{< figure library="1" src="fig5.png" title="The mechanical structure" >}}
 The mechanical structure of the 4-Dof robot arm is shown in the figure, the vertical line is drawing board. Animation and details are introduced in the paper is available [here](/papers/Analysis of the robot PROW based on robotics.pdf). An animation about drawing a semicircle is exhibited below.
-{{< video library="1" src="PROW.mp4" controls="yes" >}}
+{{< video library="1" src="PROW.avi" controls="no" >}}
 
 
