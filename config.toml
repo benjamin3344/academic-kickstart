@@ -255,11 +255,11 @@ enableGitInfo = false
   [[params.social]]
     icon = "github"
     icon_pack = "fab"
-    link = "//github.com/benjamin3344"
+    link = "https://github.com/benjamin3344"
 
   [[params.social]]
     icon = "skype"
-    icon_pack = "fas"
+    icon_pack = "fab"
     link = "skype:benjamin3344@live.cn"
 
   # Link to a PDF of your resume/CV from the About widget.
@@ -267,7 +267,7 @@ enableGitInfo = false
    [[params.social]]
      icon = "cv"
      icon_pack = "ai"
-     link = "files/cv.pdf"
+     link = "cv/cv.pdf"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
