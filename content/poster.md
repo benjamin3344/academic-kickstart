@@ -10,7 +10,7 @@ title = "Time Scaling Transformation in Quantum Optimal Control Computation-Post
 
 [header]
   caption = ""
-  image = "/img/poster.tif"
+  image = "poster.png"
   
 +++
 ### May 10th 2018 - Zhejiang University
