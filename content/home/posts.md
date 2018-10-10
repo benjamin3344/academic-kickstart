@@ -3,7 +3,7 @@
 # Note: this widget will only display if `content/post/` contains posts.
 widget = "posts"
 date = "2016-04-20T00:00:00"
-active = true
+active = false
 draft = false
 title = "Recent Posts"
 subtitle = "[Blog RSS](/feed.xml)"

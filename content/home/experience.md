@@ -65,12 +65,12 @@ date_format = "January 2006"
 [[experience]]
   title = "Robocup competition"
   company = "ZJUDancer (student club)"
-  company_url = "https://www.robocup2015.org/"
+  company_url = ""
   location = "Hefei"
   date_start = "2014-09-01"
   date_end = "2015-07-01"
   description = """
-  Robocup Humanoid League Kidsize Soccer Competition 2nd Place
+  [Robocup Humanoid League Kidsize Soccer Competition](https://www.robocup2015.org/) 2nd Place
 
   * Calibrated the exterior parameters of the soccer robots as a member of the gait group of ZJUDancer.
   * Designed new postures and checked parameters to make sure that robots

@@ -25,4 +25,7 @@ weight = 50
   + Vice-monitor of Class 1203, Mechatronics Engineering (2013-2015)
   + Member of Technical group, the Robotic Institute, Zhejiang University (2013-2014)
   + Member of Student Union of Chu Kochen College (2012-2013)
+* Interests and hobbies
+  + Cinematographic and Literature Art 
+  + Swimming, Badminton
 
