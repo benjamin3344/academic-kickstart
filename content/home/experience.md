@@ -43,8 +43,9 @@ date_format = "January 2006"
   date_end = "2016-07-01"
   description = """
 [Tip Control of the Flexible Beam Driven by Linear Motors](https://bshizju.netlify.com/publication/design-of-the-tip-control-of-flexible-beam-driven-by-linear-motor-based-on-vibration-modal-analysis/):
-* Modeled the flexible beam driven by linear motors, linearized the nonlinear cantilever system by modal analysis and truncation
-* Identified the parameters of the hardware platform by frequency-domain analysis and designed a controller (PID and fuzzy control)
+
+  * Modeled the flexible beam driven by linear motors, linearized the nonlinear cantilever system by modal analysis and truncation
+  * Identified the parameters of the hardware platform by frequency-domain analysis and designed a controller (PID and fuzzy control)
 """
 
 [[experience]]
