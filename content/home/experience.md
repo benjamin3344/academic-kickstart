@@ -78,7 +78,7 @@ date_format = "January 2006"
   * Designed new postures and checked parameters to make sure that robots
 could fulfill the designated movements accurately.
 
-[Read More](/POE)
+[Read More](/ZJUDancer)
   """
 
 [[experience]]

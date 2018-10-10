@@ -1,5 +1,5 @@
 ﻿+++
-tags = ["PROW", "D-H algorithm", "robotics toolbox"]
+tags = ["singularity", "POE algorithm", "industrial robot arms"]
 math = false
 date = "2014-12-01T15:10:00-12:00"
 title = "Summer Intern"
