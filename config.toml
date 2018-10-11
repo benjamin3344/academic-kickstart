@@ -307,8 +307,6 @@ enableGitInfo = false
   url = "#contact"
   weight = 6
 
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=n&d=rLRVF-ZjfmeTWSwXp0uyoHLUxR15wIbAp1cJQkdsDC4'></script>
-
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[menu.main]]
