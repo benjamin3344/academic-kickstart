@@ -49,7 +49,7 @@ date_format = "January 2006"
 """
 
 [[experience]]
-  title = "Summer Intern"
+  title = "Summer Internship"
   company = "Googoltech"
   company_url = ""
   location = "Shenzhen"
