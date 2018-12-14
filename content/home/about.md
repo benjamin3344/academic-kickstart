@@ -10,9 +10,11 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Quantum Control and Quantum Information",
+
     "Dynamic Systems and Control",
-    "Robotics"
+    "Robotics",
+    "Quantum Control and Quantum Information",
+    "Machine Learning"
   ]
 
 # List your qualifications (such as academic degrees).
