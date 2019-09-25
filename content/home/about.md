@@ -11,7 +11,7 @@ weight = 5
 [interests]
   interests = [
     "Dynamic Systems and Control",
-    "Robotics",
+    "Roboticse",
     "Quantum Control and Quantum Information",
     "Machine Learning"
   ]
