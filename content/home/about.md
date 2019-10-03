@@ -11,7 +11,7 @@ weight = 5
 [interests]
   interests = [
     "Dynamic Systems and Control",
-    "Roboticsedd",
+    "Robotics",
     "Quantum Control and Quantum Information",
     "Machine Learning"
   ]
@@ -35,6 +35,6 @@ weight = 5
 +++
 
 # Biography
-My personal website has been permanently removed to [here](https://bshiuoft.netlify.com).
+**My personal website has been permanently removed to [here](https://bshiuoft.netlify.com).**
 
 I am a master candidate in Control Science and Engineering and I got my Bachelor's degree in Mechatronics at Zhejiang University. My interests include quantum control and quantum information, dynamic systems and control, and robotics. Potential interests also include Artificial Intelligence and Biophysics. My senior project is mainly about the tip control of the flexible beam driven by linear motors based on vibration modal analysis. My master's thesis will focus on quantum optimal control and frequency control of quantum parametric oscillators. My CV can be downloaded [here](https://bshizju.netlify.com/cv/cv.pdf) and transcripts [here](https://bshizju.netlify.com/cv/Bin Shi_transcripts.pdf).
