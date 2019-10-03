@@ -282,10 +282,10 @@ enableGitInfo = false
   url = "#about"
   weight = 1
 
-#[[menu.main]]
-  #name = "Publications"
-  #url = "#publications"
-  #weight = 2
+[[menu.main]]
+  name = "Publications"
+  url = "#publications"
+  weight = 2
 
 #[[menu.main]]  ##useless
   #name = "Projects"
@@ -297,10 +297,10 @@ enableGitInfo = false
  # url = "#posts"
  # weight = 4
 
-#[[menu.main]]
-  #name = "Activities"
-  #url = "#teaching"
-  #weight = 5
+[[menu.main]]
+  name = "Activities"
+  url = "#teaching"
+  weight = 5
 
 [[menu.main]]
   name = "Contact"

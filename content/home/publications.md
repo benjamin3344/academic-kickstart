@@ -2,7 +2,7 @@
 # Recent Publications widget.
 # Note: this widget will only display if `content/publication/` contains publications.
 widget = "publications"
-active = true
+active = false
 date = "2016-04-20T00:00:00"
 
 title = "Publications"
