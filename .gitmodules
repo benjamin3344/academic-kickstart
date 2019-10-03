@@ -4,5 +4,4 @@
 	branch = master
 [submodule "themes/academic"]
 	path = themes/academic
-	url = git@github.com:jabranham/hugo-academic
-	branch = master
+	url = https://github.com/gcushen/hugo-academic.git
